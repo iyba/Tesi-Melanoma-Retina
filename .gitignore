@@ -1,0 +1,20 @@
+# File di Python temporanei
+__pycache__/
+*.pyc
+
+# Ambienti virtuali
+venv/
+.venv/
+
+# File di Deep Learning DA IGNORARE
+# Pesi del modello e checkpoint
+*.pth
+*.h5
+
+# Cartelle dei dataset (NON caricare le immagini su GitHub)
+/data/
+/datasets/
+/images/
+
+# Log di training (TensorBoard/W&B)
+/tensorboard_logs/
